@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import Wall from './components/Wall/Wall';
 import Quiz from './components/Quiz/Quiz';
 import Login from './components/Login/Login';
+import Admin from './components/Admin/Admin';
 
 
 const App = () => (
@@ -14,6 +15,7 @@ const App = () => (
         <Route path="/" exact element={<Wall/>} />
         <Route path="/quiz" exact element={<Quiz/>} />
         <Route path="/login" exact element={<Login/>} />
+        <Route path="/admin" exact element={<Admin/>} />
       </Routes>
       <Footer />
   </BrowserRouter>
