@@ -6,10 +6,6 @@ import Admin from '../../components/Admin/Admin';
 const Login = () => {
 const [ user, setUser ] = useState({});
 
-function DisplayImage(props) {
-    return "hi";
-  }
-  
   function ImageFunction(props) {
     if (user.email === "bethjarrettbeth@gmail.com") {
       return <Admin />;
