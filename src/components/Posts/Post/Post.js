@@ -22,7 +22,7 @@ return (
   <hr />
     <div className='row g-0'>
       <div className='col-1 pb-2'><img src={profile} className="img-fluid img-thumbnail" alt="Thumbnail"/></div>
-      <div className='col-8'>
+      <div className='col-11'>
         <div className='card-body'>
           <div className='card-text'>Beth Jarrett&nbsp;&nbsp;&nbsp;{post.post}</div>
           <div id="img">

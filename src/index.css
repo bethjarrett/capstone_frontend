@@ -1,12 +1,13 @@
 .profile {
-    max-width:50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    max-width:50% !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 .sq-img {
-    max-width: 35%;
+    max-width: 50%;
 }
+
 a:link, a:visited, a:active { 
     text-decoration: none !important;
     font-weight: bold; 
