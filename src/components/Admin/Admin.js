@@ -15,19 +15,19 @@ const Admin = () => {
 
 return (
 <div className="container">
-    <div className="row">
-      <div className="col-sm-4 pt-5">
-        <Form currentId={currentId} setCurrentId={setCurrentId} />
-        </div>
-      <div className='col-sm-8'>
-        <div className='container pt-5'>
-          <h2>Post Dashboard</h2>
-          <hr />
-          <Posts setCurrentId={setCurrentId} />
-        </div>
+  <div className="row">
+    <div className="col-sm-4 pt-5">
+      <Form currentId={currentId} setCurrentId={setCurrentId} />
     </div>
-</div>      </div>
- 
+    <div className='col-sm-8'>
+      <div className='container pt-5'>
+        <h2>&#9198;&#65039; Post Dashboard</h2>
+        <hr />
+        <Posts setCurrentId={setCurrentId} />
+      </div>
+    </div>
+  </div>
+</div>
   )
 }
 

@@ -7,7 +7,7 @@ class Navigation extends React.Component {
     render() {
       return(
 <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div className="container"><Link to="/" className="navbar-brand">Scrapebook</Link>
+    <div className="container"><Link to="/" className="navbar-brand">scrapebook</Link>
         <div className="collapse navbar-collapse" id="fakebookNavbar">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item"><a className="nav-link"><FaUserFriends /></a></li>

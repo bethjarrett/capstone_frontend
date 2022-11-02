@@ -1,3 +1,17 @@
+.navbar-brand { font-family: 'klavika_mediummedium', sans-serif !important;
+}
+
+
+@font-face {
+    font-family: 'klavika_mediummedium';
+    src: url('klavikamedium-tf-webfont.woff2') format('woff2'),
+         url('klavikamedium-tf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 .profile {
     max-width:50% !important;
     display: block !important;
@@ -8,6 +22,11 @@
     max-width: 50%;
 }
 
+.carousel-img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
 a:link, a:visited, a:active { 
     text-decoration: none !important;
     font-weight: bold; 
@@ -15,4 +34,9 @@ a:link, a:visited, a:active {
 
 a:hover { 
     text-decoration: none;
+}
+
+
+.card-header {
+    background-color: white !important;
 }

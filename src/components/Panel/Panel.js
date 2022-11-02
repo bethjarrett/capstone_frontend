@@ -4,8 +4,8 @@ import profile from "../../components/images/fakeprofile.jpg"
 
 const Panel = () => {
   return (
-      <div className="col-sm-4">
-        <div className="modal in" id="modalCenter" tabIndex="-1" role="dialog" aria-labelledby="modalCenter" aria-hidden="true">
+<div className="col-sm-4">
+  <div className="modal in" id="modalCenter" tabIndex="-1" role="dialog" aria-labelledby="modalCenter" aria-hidden="true">
   <div className="modal-dialog modal-dialog-centered" role="document">
     <div className="modal-content">
       <div className="modal-header">
@@ -22,32 +22,33 @@ const Panel = () => {
     </div>
   </div>
 </div>
-        <div className="pt-5"></div>
-        <div className="table-responsive">
-          <table className="table table-sm table-hover">
-            <thead>
-              <tr>
-                <td><img className="img-fluid profile pb-5" src={profile} alt="This is a photograph of the developer."/></td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>&nbsp;<FaCommentDots />&nbsp;&nbsp;<a href="/"><button type="button" className="btn btn-link">Wall</button></a></td>
-              </tr>
-              <tr>
-                <td>&nbsp;<FaAddressCard />&nbsp;&nbsp;<button type="button" className="btn btn-link" data-toggle="modal" data-target="#modalCenter">Info</button></td>
-              </tr>
-              <tr>
-                <td>&nbsp;<FaImages />&nbsp;&nbsp;Photos</td>
-              </tr>
-              <tr>
-                <td>&nbsp;<FaRegCalendarAlt />&nbsp;&nbsp;<a href="/quiz"><button type="button" className="btn btn-link">Events</button></a></td>
-              </tr>
-            </tbody>
-            <tfoot><tr></tr></tfoot>
-          </table>
-        </div>
-      </div>
+
+<div className="pt-5"></div>
+  <div className="table-responsive">
+    <table className="table table-sm table-hover">
+      <thead>
+        <tr>
+          <td><img className="img-fluid profile pb-5" src={profile} alt="This is a photograph of the developer."/></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;<FaCommentDots />&nbsp;&nbsp;<a href="/"><button type="button" className="btn btn-link">Wall</button></a></td>
+        </tr>
+        <tr>
+          <td>&nbsp;<FaAddressCard />&nbsp;&nbsp;<button type="button" className="btn btn-link" data-toggle="modal" data-target="#modalCenter">Info</button></td>
+        </tr>
+        <tr>
+          <td>&nbsp;<FaImages />&nbsp;&nbsp;<a href="/photos"><button type="button" className="btn btn-link">Photos</button></a></td>
+        </tr>
+        <tr>
+          <td>&nbsp;<FaRegCalendarAlt />&nbsp;&nbsp;<a href="/quiz"><button type="button" className="btn btn-link">Events</button></a></td>
+        </tr>
+      </tbody>
+      <tfoot><tr></tr></tfoot>
+    </table>
+  </div>
+</div>
   )
 }
 

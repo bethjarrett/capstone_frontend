@@ -2,11 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 
 import { FaGraduationCap, FaHome, FaRegCalendarAlt, FaBriefcase } from 'react-icons/fa';
-
 import { getPosts } from '../../actions/posts';
 import Posts from '../Posts/Posts';
 import Panel from '../../components/Panel/Panel';
-
 
 const Wall = () => {
   const [currentId, setCurrentId] = useState(0);
