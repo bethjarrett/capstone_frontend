@@ -33,7 +33,7 @@ const Panel = () => {
       </thead>
       <tbody>
         <tr>
-          <td>&nbsp;<FaCommentDots />&nbsp;&nbsp;<a href="/"><button type="button" className="btn btn-link">Wall</button></a></td>
+          <td>&nbsp;<FaCommentDots />&nbsp;&nbsp;<a href="/wall"><button type="button" className="btn btn-link">Wall</button></a></td>
         </tr>
         <tr>
           <td>&nbsp;<FaAddressCard />&nbsp;&nbsp;<button type="button" className="btn btn-link" data-toggle="modal" data-target="#modalCenter">Info</button></td>

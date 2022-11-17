@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
+import ScrollToTop from "react-scroll-up";
 
-import { FaGraduationCap, FaHome, FaRegCalendarAlt, FaBriefcase } from 'react-icons/fa';
+import { FaArrowUp, FaGraduationCap, FaHome, FaRegCalendarAlt, FaBriefcase } from 'react-icons/fa';
 import { getPosts } from '../../actions/posts';
 import Posts from '../Posts/Posts';
 import Panel from '../../components/Panel/Panel';
@@ -16,6 +17,9 @@ const Wall = () => {
 
 return (
 <div className="page">
+<ScrollToTop showUnder={160} duration={1}>
+  <FaArrowUp />
+</ScrollToTop>
   <div className="container">
     <div className="row">
       <Panel />
