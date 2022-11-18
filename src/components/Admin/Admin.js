@@ -24,7 +24,7 @@ return (
     </div>
     <div className='col-sm-8'>
       <div className='container pt-5'>
-        <h2>&#9198;&#65039; Post Dashboard</h2>
+        <h2><span role="img" aria-label="backtrack">&#9198;&#65039;</span> Post Dashboard</h2>
         <hr />
         <Posts setCurrentId={setCurrentId} />
       </div>

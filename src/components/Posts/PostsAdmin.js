@@ -13,7 +13,7 @@ const posts = useSelector((state) => state.posts);
         <table className='table table-sm table-hover'>
           <tbody>
         {posts.map(p => (
-            <Post post={p} setCurrentId={setCurrentId} />
+            <Post post={p} setCurrentId={setCurrentId} key={p._id}  />
         ))}
         </tbody>
         </table>

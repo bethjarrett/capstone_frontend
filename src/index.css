@@ -1,33 +1,7 @@
-.navbar-brand { font-family: 'klavika_mediummedium', sans-serif !important;
-}
-
-.red {
-    color: red
-}
-
-@font-face {
-    font-family: 'klavika_mediummedium';
-    src: url('klavikamedium-tf-webfont.woff2') format('woff2'),
-         url('klavikamedium-tf-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-.profile {
-    max-width:50% !important;
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-.sq-img {
-    max-width: 50%;
-}
-
-.carousel-img {
-    max-width: 400px;
-    max-height: 400px;
+/* Global styles */
+html, body {
+    height: 100%;
+    position: relative;
 }
 
 a:link, a:visited, a:active { 
@@ -39,34 +13,73 @@ a:hover {
     text-decoration: none;
 }
 
+.red {
+    color: red
+}
 
+/* Logo Font */
+@font-face {
+    font-family: 'klavika_mediummedium';
+    src: url('klavikamedium-tf-webfont.woff2') format('woff2'),
+         url('klavikamedium-tf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (min-width: 601px) {
+    .nav-font {
+        font-size:1.25em !important;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .nav-font {
+        font-size:1em !important;
+    }
+  }
+
+/* Bootstrap Overwrites */
+.navbar-brand { 
+    font-family: 'klavika_mediummedium', sans-serif !important;
+}
 .card-header {
     background-color: white !important;
 }
 
-html,
-body {
-    height: 100%;
-    position: relative;
+/* Image Styles */
+.profile {
+    max-width:50% !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
+
+.sq-img {
+    max-width: 50%;
+}
+
+.carousel-img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+/* Splash */
 .display-middle {
     position:absolute;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
     -ms-transform:translate(-50%,-50%)
-  }
-.splash-blurb {
+}
 
-text-align: justify !important;}
+.splash-blurb {
+    text-align: justify !important;
+}
 
 @media screen and (min-width: 601px) {
     .splash-blurb {
         font-size:1.25em;
     }
   }
-  
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .splash-blurb {
         font-size:0.75em;
     }

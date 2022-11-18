@@ -11,7 +11,7 @@ const Posts = ({ setCurrentId }) => {
     !posts.length ? <CircularProgress /> : (
       <div>
         {posts.map(p => (
-            <Post post={p} setCurrentId={setCurrentId} />
+            <Post post={p} setCurrentId={setCurrentId} key={p._id} />
         ))}
       </div>
     )

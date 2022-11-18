@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaCommentDots, FaAddressCard, FaImages, FaRegCalendarAlt } from 'react-icons/fa';
-import profile from "../../components/images/fakeprofile.jpg"
+import profile from "../../components/images/fakeprofile.jpg";
+import Spotify from "react-spotify-embed";
 
 const Panel = () => {
   return (
@@ -14,7 +15,8 @@ const Panel = () => {
       <div className="modal-body">
         <p>In October 2005, I used my university email address to open a Facebook account. I documented my life on it: job woes, international moves, dirty laundry, and too much information peppered between blurry phone pictures and Farmville invitations.</p>
         <p>I quit social media in 2019, and have been thinking about my relationship with this <em>account</em> ever since. So I scraped it. I took all my old posts, culled them down, and reflected on it all.</p>
-        <p>Forget yearbook. <h5>Welcome to my decadebook.</h5></p>
+        <p>Forget yearbook.</p>
+        <h5>Welcome to my decadebook.</h5>
       </div>
       <div className="modal-footer">
         <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -47,6 +49,9 @@ const Panel = () => {
       </tbody>
       <tfoot><tr></tr></tfoot>
     </table>
+    <div className="d-flex justify-content-center">
+      <Spotify link="https://open.spotify.com/playlist/6Mye6UoF8rMDerEUZmSK8J?si=b325af21829447a6" />
+    </div>
   </div>
 </div>
   )

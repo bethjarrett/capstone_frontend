@@ -26,7 +26,7 @@ return (
       <div className='col-sm-8'>
         <div className='container pt-5'>
           <h1>Beth Jarrett</h1>
-          <span><FaGraduationCap />&nbsp;&nbsp;Studied at York University&nbsp;&nbsp;<FaBriefcase />&nbsp;&nbsp;Worked jobs&nbsp;&nbsp;<FaHome />&nbsp;&nbsp;From and Lives in Toronto, Ontario&nbsp;&nbsp;<FaRegCalendarAlt />&nbsp;&nbsp;Born before the Internet</span>
+          <p><FaGraduationCap />&nbsp;&nbsp;Studied at York University&nbsp;&nbsp;<FaBriefcase />&nbsp;&nbsp;Worked jobs&nbsp;&nbsp;<FaHome />&nbsp;&nbsp;From Toronto, Ontario&nbsp;&nbsp;<FaRegCalendarAlt />&nbsp;&nbsp;Born before the Internet</p>
           <Posts setCurrentId={setCurrentId} />
         </div>
       </div>
